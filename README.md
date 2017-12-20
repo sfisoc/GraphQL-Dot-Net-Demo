@@ -3,6 +3,8 @@ Graph QL function demonstration, based on http://asp.net-hacker.rocks/2017/05/29
 
 #Extentiosn
 Added new query types to extent the original.
+
+```
           {
             authors{
               id,
@@ -13,8 +15,12 @@ Added new query types to extent the original.
               }
             }
           }
-          -----------------------------------
+
+```
+-----------------------------------
           and
+
+```
      {
       publishers{
         id,
@@ -25,6 +31,8 @@ Added new query types to extent the original.
         }
       }
     }
+
+```
     
  Authors and Publsihers can be quried separatly.
  
